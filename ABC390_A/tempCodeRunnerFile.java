@@ -1,3 +1,4 @@
+package ABC390_A;
 import java.util.*;
 
 public class Main {
