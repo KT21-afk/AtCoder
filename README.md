@@ -1,5 +1,5 @@
 # AtCoder
-AtCoder練習用のリポジトリ
+AtCoder学習記録用のリポジトリ
 
-AtCoder Prblems
+AtCoder Prblems：
 https://kenkoooo.com/atcoder/#/table/
