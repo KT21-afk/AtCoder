@@ -1,7 +1,7 @@
 package ABC390_A;
 import java.util.*;
 
-public class Main {
+public class MainA {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     String  A = sc.nextLine();

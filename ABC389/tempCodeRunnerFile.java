@@ -1,30 +1,27 @@
 import java.util.*;
 
-class MainC {
+class MainD {
   public static void main(String[] args) {
-  
+    
   Scanner sc = new Scanner(System.in);
-  int Q = sc.nextInt();
-
-  int headIndex = 0;
-  List<Long> queue = new ArrayList<>();
-
-  for (int i = 0; i < Q; i++) {
-    int type = sc.nextInt();
-    if (type == 1) {
-      long l = sc.nextLong();
-      queue.add(l);
-    } else if (type == 2) {
-      headIndex++;
-    } else if (type == 3) {
-      int k = sc.nextInt();
-      long result = 0;
-      for (int j = headIndex; j < headIndex + k - 1; j++) {
-        result += queue.get(j);
-      }
-      System.out.println(result);
-    }
-  }
+  int R = sc.nextInt();
   sc.close();
+
+  double x = 0.5 * 2;
+  double y = 0.5 * 2;
+  int counter = 0;
+  double r = Math.pow(R*2, 2);
+  for (int i = 0; i < R; i++) {
+    for (int j = 0; j < R; j++) {
+      double dx = Math.pow((x+i)*2, 2);
+      // System.out.println("dx : " + dx);
+      double dy = Math.pow((y+j)*2, 2);
+      // System.out.println("dy : " + dy);
+      if (dx + dy <= r) counter++;
+    }
+  } 
+  counter *= 4;
+  counter++;
+  System.out.println(counter);
   }
 }
