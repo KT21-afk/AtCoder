@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class ABC391_MainA02 {
   private static final Map<String, String> OPOSITE_DIRECTION = Map.of(
     "N", "S",
     "S", "N",
