@@ -23,6 +23,7 @@ class ABC391_MainB {
         gridB[i] = line.toCharArray();
       }
     }
+    sc.close();
 
     for (int h = 1; h <= N - M + 1; h++) {
       for (int w = 1; w <= N - M + 1; w++) {

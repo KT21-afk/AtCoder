@@ -36,6 +36,7 @@ class ABC391_MainC {
       } else if (type == 2) {
         System.out.println(counter);
       }
+      sc.close();
     }
     
   }
