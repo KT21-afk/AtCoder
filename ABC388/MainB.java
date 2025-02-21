@@ -15,7 +15,6 @@ class MainB {
       L[i] = sc.nextInt();
     }
     sc.close();
-
     
     for (int j = 1; j <= D; j++) {
       int max = Integer.MIN_VALUE;
