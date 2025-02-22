@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MainD {
+class ABC389_MainD {
   public static void main(String[] args) {
     
   Scanner sc = new Scanner(System.in);

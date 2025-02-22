@@ -1,7 +1,6 @@
-// package ABC390_B;
 import java.util.*;
 
-public class MainB {
+public class ABC390_MainB {
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);

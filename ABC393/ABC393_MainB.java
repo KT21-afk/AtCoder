@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MainB {
+class ABC393_MainB {
   public static void main(String[] args) {
   Scanner sc = new Scanner(System.in);
   String S = sc.nextLine();
