@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MainB {
+public class ABC389_MainB {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     long X = sc.nextLong();
